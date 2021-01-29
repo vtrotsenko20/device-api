@@ -13,7 +13,8 @@ Request body should be:
     "macAddress":"",
     "deviceType":"",
     "uplinkMacAddress":""
-}```
+}
+```
 
 * GET /devices/all - Retrieving all registered devices, sorted by device type
 * GET /devices/{macAddress} - Retrieving network deployment device by MAC address
