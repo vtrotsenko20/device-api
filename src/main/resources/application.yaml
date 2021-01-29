@@ -1,0 +1,9 @@
+datasource:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+springdoc:
+  group-configs:
+    - group: device-api
+      packages-to-scan: com.gl.device
