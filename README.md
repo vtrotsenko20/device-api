@@ -9,7 +9,8 @@ To run the application:
 List of available endpoints:
 * POST /devices/register - Registering a device to a network deployment
 Request body should be:
-```{
+```
+{
     "macAddress":"",
     "deviceType":"",
     "uplinkMacAddress":""
